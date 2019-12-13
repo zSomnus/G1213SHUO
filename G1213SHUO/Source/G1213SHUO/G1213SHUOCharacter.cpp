@@ -11,6 +11,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "MotionControllerComponent.h"
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
+#include "PlayerWidget.h"
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
@@ -88,6 +89,15 @@ void AG1213SHUOCharacter::BeginPlay()
 {
 	// Call the base class  
 	Super::BeginPlay();
+
+	if (WidgetClass != nullptr)
+	{
+		auto widget = CreateWidget<UPlayerWidget>(UGameplayStatics::GetPlayerController(this, 0), WidgetClass);
+		widget->Player = this;
+		widget->AddToViewport();
+	}
+
+	LevelOfPlayer = 10;
 
 	//Attach gun mesh component to Skeleton, doing it here because the skeleton is not yet created in the constructor
 	FP_Gun->AttachToComponent(Mesh1P, FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));

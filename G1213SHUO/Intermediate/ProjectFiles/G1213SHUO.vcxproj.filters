@@ -66,4 +66,32 @@
       <Filter>Source\G1213SHUO</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\G1213SHUO\PlayerWidget.h">
+      <Filter>Source\G1213SHUO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\G1213SHUO\UnluckyTrap.h">
+      <Filter>Source\G1213SHUO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\G1213SHUO\RarestCandy.h">
+      <Filter>Source\G1213SHUO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\G1213SHUO\ResetPad.h">
+      <Filter>Source\G1213SHUO</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\G1213SHUO\PlayerWidget.cpp">
+      <Filter>Source\G1213SHUO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\G1213SHUO\UnluckyTrap.cpp">
+      <Filter>Source\G1213SHUO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\G1213SHUO\RarestCandy.cpp">
+      <Filter>Source\G1213SHUO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\G1213SHUO\ResetPad.cpp">
+      <Filter>Source\G1213SHUO</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

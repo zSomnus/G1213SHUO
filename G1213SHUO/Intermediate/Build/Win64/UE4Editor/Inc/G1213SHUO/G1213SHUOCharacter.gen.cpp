@@ -22,6 +22,7 @@ void EmptyLinkFunctionForGeneratedCodeG1213SHUOCharacter() {}
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	G1213SHUO_API UClass* Z_Construct_UClass_AG1213SHUOProjectile_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	G1213SHUO_API UClass* Z_Construct_UClass_UPlayerWidget_NoRegister();
 	HEADMOUNTEDDISPLAY_API UClass* Z_Construct_UClass_UMotionControllerComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
@@ -69,6 +70,18 @@ void EmptyLinkFunctionForGeneratedCodeG1213SHUOCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseTurnRate_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BaseTurnRate;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CandyCount_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_CandyCount;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_WidgetClass_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_WidgetClass;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LevelOfPlayer_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_LevelOfPlayer;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_L_MotionController_MetaData[];
 #endif
@@ -177,6 +190,27 @@ void EmptyLinkFunctionForGeneratedCodeG1213SHUOCharacter() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AG1213SHUOCharacter_Statics::NewProp_BaseTurnRate = { "BaseTurnRate", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AG1213SHUOCharacter, BaseTurnRate), METADATA_PARAMS(Z_Construct_UClass_AG1213SHUOCharacter_Statics::NewProp_BaseTurnRate_MetaData, ARRAY_COUNT(Z_Construct_UClass_AG1213SHUOCharacter_Statics::NewProp_BaseTurnRate_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AG1213SHUOCharacter_Statics::NewProp_CandyCount_MetaData[] = {
+		{ "Category", "G1213SHUOCharacter" },
+		{ "ModuleRelativePath", "G1213SHUOCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AG1213SHUOCharacter_Statics::NewProp_CandyCount = { "CandyCount", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AG1213SHUOCharacter, CandyCount), METADATA_PARAMS(Z_Construct_UClass_AG1213SHUOCharacter_Statics::NewProp_CandyCount_MetaData, ARRAY_COUNT(Z_Construct_UClass_AG1213SHUOCharacter_Statics::NewProp_CandyCount_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AG1213SHUOCharacter_Statics::NewProp_WidgetClass_MetaData[] = {
+		{ "Category", "G1213SHUOCharacter" },
+		{ "ModuleRelativePath", "G1213SHUOCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AG1213SHUOCharacter_Statics::NewProp_WidgetClass = { "WidgetClass", nullptr, (EPropertyFlags)0x0014000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AG1213SHUOCharacter, WidgetClass), Z_Construct_UClass_UPlayerWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AG1213SHUOCharacter_Statics::NewProp_WidgetClass_MetaData, ARRAY_COUNT(Z_Construct_UClass_AG1213SHUOCharacter_Statics::NewProp_WidgetClass_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AG1213SHUOCharacter_Statics::NewProp_LevelOfPlayer_MetaData[] = {
+		{ "Category", "G1213SHUOCharacter" },
+		{ "ModuleRelativePath", "G1213SHUOCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AG1213SHUOCharacter_Statics::NewProp_LevelOfPlayer = { "LevelOfPlayer", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AG1213SHUOCharacter, LevelOfPlayer), METADATA_PARAMS(Z_Construct_UClass_AG1213SHUOCharacter_Statics::NewProp_LevelOfPlayer_MetaData, ARRAY_COUNT(Z_Construct_UClass_AG1213SHUOCharacter_Statics::NewProp_LevelOfPlayer_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AG1213SHUOCharacter_Statics::NewProp_L_MotionController_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "G1213SHUOCharacter" },
@@ -259,6 +293,9 @@ void EmptyLinkFunctionForGeneratedCodeG1213SHUOCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AG1213SHUOCharacter_Statics::NewProp_GunOffset,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AG1213SHUOCharacter_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AG1213SHUOCharacter_Statics::NewProp_BaseTurnRate,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AG1213SHUOCharacter_Statics::NewProp_CandyCount,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AG1213SHUOCharacter_Statics::NewProp_WidgetClass,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AG1213SHUOCharacter_Statics::NewProp_LevelOfPlayer,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AG1213SHUOCharacter_Statics::NewProp_L_MotionController,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AG1213SHUOCharacter_Statics::NewProp_R_MotionController,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AG1213SHUOCharacter_Statics::NewProp_FirstPersonCameraComponent,
@@ -295,7 +332,7 @@ void EmptyLinkFunctionForGeneratedCodeG1213SHUOCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AG1213SHUOCharacter, 2480112033);
+	IMPLEMENT_CLASS(AG1213SHUOCharacter, 2699535942);
 	template<> G1213SHUO_API UClass* StaticClass<AG1213SHUOCharacter>()
 	{
 		return AG1213SHUOCharacter::StaticClass();

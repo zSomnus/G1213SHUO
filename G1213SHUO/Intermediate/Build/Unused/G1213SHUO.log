@@ -1,0 +1,43 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\G1213SHUO).
+  Creating makefile for G1213SHUOEditor (ini files are newer than makefile)
+  Parsing headers for G1213SHUOEditor
+    Running UnrealHeaderTool "E:\G1213SHUO\G1213SHUO\G1213SHUO.uproject" "E:\G1213SHUO\G1213SHUO\Intermediate\Build\Win64\G1213SHUOEditor\Development\G1213SHUOEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for G1213SHUOEditor in 5.1228202 seconds
+  Deleted hot-reload file: E:\G1213SHUO\G1213SHUO\Binaries\Win64\UE4Editor-G1213SHUO-0001.dll
+  Deleted hot-reload file: E:\G1213SHUO\G1213SHUO\Binaries\Win64\UE4Editor-G1213SHUO-0002.dll
+  Deleted hot-reload file: E:\G1213SHUO\G1213SHUO\Binaries\Win64\UE4Editor-G1213SHUO-0003.dll
+  Deleted hot-reload file: E:\G1213SHUO\G1213SHUO\Binaries\Win64\UE4Editor-G1213SHUO-0004.dll
+  Deleted hot-reload file: E:\G1213SHUO\G1213SHUO\Binaries\Win64\UE4Editor-G1213SHUO-0007.dll
+  Deleted hot-reload file: E:\G1213SHUO\G1213SHUO\Binaries\Win64\UE4Editor-G1213SHUO-0008.dll
+  Deleted hot-reload file: E:\G1213SHUO\G1213SHUO\Intermediate\Build\Win64\UE4Editor\Development\G1213SHUO\UE4Editor-G1213SHUO-0001.lib
+  Deleted hot-reload file: E:\G1213SHUO\G1213SHUO\Intermediate\Build\Win64\UE4Editor\Development\G1213SHUO\UE4Editor-G1213SHUO-0002.lib
+  Deleted hot-reload file: E:\G1213SHUO\G1213SHUO\Intermediate\Build\Win64\UE4Editor\Development\G1213SHUO\UE4Editor-G1213SHUO-0003.lib
+  Deleted hot-reload file: E:\G1213SHUO\G1213SHUO\Intermediate\Build\Win64\UE4Editor\Development\G1213SHUO\UE4Editor-G1213SHUO-0004.lib
+  Deleted hot-reload file: E:\G1213SHUO\G1213SHUO\Intermediate\Build\Win64\UE4Editor\Development\G1213SHUO\UE4Editor-G1213SHUO-0005.lib
+  Deleted hot-reload file: E:\G1213SHUO\G1213SHUO\Intermediate\Build\Win64\UE4Editor\Development\G1213SHUO\UE4Editor-G1213SHUO-0007.lib
+  Deleted hot-reload file: E:\G1213SHUO\G1213SHUO\Intermediate\Build\Win64\UE4Editor\Development\G1213SHUO\UE4Editor-G1213SHUO-0008.lib
+  Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Distributing 5 actions to XGE
+  --------------------Build System Warning---------------------------------------
+  License is invalid:
+      License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+      This build will run in standalone mode.
+  
+  -------------------------------------------------------------------------------
+  --------------------Project: Default-------------------------------------------
+  RarestCandy.gen.cpp (0:00.78 at +0:00)
+  RarestCandy.cpp (0:01.03 at +0:00)
+  UE4Editor-G1213SHUO.dll (0:00.70 at +0:01)
+     Creating library E:\G1213SHUO\G1213SHUO\Intermediate\Build\Win64\UE4Editor\Development\G1213SHUO\UE4Editor-G1213SHUO.suppressed.lib and object E:\G1213SHUO\G1213SHUO\Intermediate\Build\Win64\UE4Editor\Development\G1213SHUO\UE4Editor-G1213SHUO.suppressed.exp
+  UE4Editor-G1213SHUO.lib (0:00.12 at +0:02)
+     Creating library E:\G1213SHUO\G1213SHUO\Intermediate\Build\Win64\UE4Editor\Development\G1213SHUO\UE4Editor-G1213SHUO.lib and object E:\G1213SHUO\G1213SHUO\Intermediate\Build\Win64\UE4Editor\Development\G1213SHUO\UE4Editor-G1213SHUO.exp
+  G1213SHUOEditor.target (0:00.17 at +0:02)
+  ---------------------- Done ----------------------
+  
+      Rebuild All: 1 succeeded, 0 failed, 0 skipped
+  
+  1 build system warning(s):
+     - License is invalid
+  
+  Total time in XGE executor: 3.09 seconds
+  Total execution time: 9.82 seconds

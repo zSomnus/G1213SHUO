@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeG1213SHUO_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xFF597834,
-				0xEB1BF6A2,
+				0xAD1B4C79,
+				0x83DCA84B,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

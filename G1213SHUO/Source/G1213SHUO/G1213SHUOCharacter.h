@@ -13,6 +13,10 @@ class AG1213SHUOCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
+
+
+	
+
 	/** Pawn mesh: 1st person view (arms; seen only by self) */
 	UPROPERTY(VisibleDefaultsOnly, Category=Mesh)
 	class USkeletalMeshComponent* Mesh1P;
@@ -47,6 +51,15 @@ class AG1213SHUOCharacter : public ACharacter
 
 public:
 	AG1213SHUOCharacter();
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	int LevelOfPlayer;
+
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<class UPlayerWidget> WidgetClass;
+
+	UPROPERTY(VisibleAnywhere)
+		int CandyCount;
 
 protected:
 	virtual void BeginPlay();
