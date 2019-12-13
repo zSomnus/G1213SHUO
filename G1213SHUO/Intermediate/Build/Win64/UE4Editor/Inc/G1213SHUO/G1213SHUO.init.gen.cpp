@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeG1213SHUO_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x214E989A,
+				0x187A3686,
 				0xA4508490,
 				METADATA_PARAMS(nullptr, 0)
 			};

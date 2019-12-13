@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeCubemonHP() {}
 	G1213SHUO_API UClass* Z_Construct_UClass_UCubemonHP();
 	UMG_API UClass* Z_Construct_UClass_UUserWidget();
 	UPackage* Z_Construct_UPackage__Script_G1213SHUO();
+	G1213SHUO_API UClass* Z_Construct_UClass_ACubemon_NoRegister();
 // End Cross Module References
 	void UCubemonHP::StaticRegisterNativesUCubemonHP()
 	{
@@ -31,6 +32,11 @@ void EmptyLinkFunctionForGeneratedCodeCubemonHP() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Cubemon_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Cubemon;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -44,6 +50,16 @@ void EmptyLinkFunctionForGeneratedCodeCubemonHP() {}
 		{ "ModuleRelativePath", "CubemonHP.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCubemonHP_Statics::NewProp_Cubemon_MetaData[] = {
+		{ "Category", "CubemonHP" },
+		{ "ModuleRelativePath", "CubemonHP.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCubemonHP_Statics::NewProp_Cubemon = { "Cubemon", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCubemonHP, Cubemon), Z_Construct_UClass_ACubemon_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCubemonHP_Statics::NewProp_Cubemon_MetaData, ARRAY_COUNT(Z_Construct_UClass_UCubemonHP_Statics::NewProp_Cubemon_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UCubemonHP_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCubemonHP_Statics::NewProp_Cubemon,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UCubemonHP_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UCubemonHP>::IsAbstract,
 	};
@@ -53,11 +69,11 @@ void EmptyLinkFunctionForGeneratedCodeCubemonHP() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_UCubemonHP_Statics::PropPointers,
 		nullptr,
 		ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		ARRAY_COUNT(Z_Construct_UClass_UCubemonHP_Statics::PropPointers),
 		0,
 		0x00B010A0u,
 		METADATA_PARAMS(Z_Construct_UClass_UCubemonHP_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_UCubemonHP_Statics::Class_MetaDataParams))
@@ -71,7 +87,7 @@ void EmptyLinkFunctionForGeneratedCodeCubemonHP() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCubemonHP, 1847680288);
+	IMPLEMENT_CLASS(UCubemonHP, 3445445043);
 	template<> G1213SHUO_API UClass* StaticClass<UCubemonHP>()
 	{
 		return UCubemonHP::StaticClass();

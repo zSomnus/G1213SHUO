@@ -15,6 +15,14 @@ public:
 	// Sets default values for this actor's properties
 	ACubemon();
 
+	UPROPERTY(VisibleAnywhere)
+		class UStaticMeshComponent* BodyMeshComponent;
+	UPROPERTY(VisibleAnywhere)
+		class UStaticMeshComponent* HeadMeshComponent;
+
+	UPROPERTY(VisibleAnywhere)
+		class UWidgetComponent* WidgetComponent;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
