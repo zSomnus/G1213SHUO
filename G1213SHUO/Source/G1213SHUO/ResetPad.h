@@ -15,12 +15,29 @@ public:
 	// Sets default values for this actor's properties
 	AResetPad();
 
+	UPROPERTY(VisibleAnywhere)
+		class UStaticMeshComponent* MeshComponent;
+
+	UPROPERTY(EditAnywhere)
+		int Speed;
+
+	UPROPERTY(EditAnywhere)
+		float Distance;
+
+	UPROPERTY(VisibleAnywhere)
+		class AG1213SHUOCharacter* Player;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	void Activate();
+
+	bool bInRange;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+	virtual void NotifyHit(class UPrimitiveComponent* MyComp, AActor* Other, class UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& Hit) override;
 
 };

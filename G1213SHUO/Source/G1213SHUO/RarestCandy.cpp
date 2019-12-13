@@ -27,6 +27,14 @@ void ARarestCandy::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	FRotator Rotation = GetActorRotation();
+	Rotation.Yaw += DeltaTime * 100.f;
+	if (Rotation.Yaw == 360.f)
+	{
+		Rotation.Yaw = 0.0f;
+	}
+
+	SetActorRotation(Rotation);
 }
 
 void ARarestCandy::NotifyHit(UPrimitiveComponent* MyComp, AActor* Other, UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& Hit)

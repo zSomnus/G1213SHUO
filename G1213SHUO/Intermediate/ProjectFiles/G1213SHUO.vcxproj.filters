@@ -79,6 +79,15 @@
     <ClInclude Include="..\..\Source\G1213SHUO\ResetPad.h">
       <Filter>Source\G1213SHUO</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\G1213SHUO\BlackHole.h">
+      <Filter>Source\G1213SHUO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\G1213SHUO\CubemonHP.h">
+      <Filter>Source\G1213SHUO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\G1213SHUO\Cubemon.h">
+      <Filter>Source\G1213SHUO</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\G1213SHUO\PlayerWidget.cpp">
@@ -91,6 +100,15 @@
       <Filter>Source\G1213SHUO</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\G1213SHUO\ResetPad.cpp">
+      <Filter>Source\G1213SHUO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\G1213SHUO\BlackHole.cpp">
+      <Filter>Source\G1213SHUO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\G1213SHUO\CubemonHP.cpp">
+      <Filter>Source\G1213SHUO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\G1213SHUO\Cubemon.cpp">
       <Filter>Source\G1213SHUO</Filter>
     </ClCompile>
   </ItemGroup>

@@ -364,10 +364,16 @@
     <NMakeOutput>..\..\Binaries\HTML5\G1213SHUO-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\G1213SHUO\BlackHole.cpp" />
+    <ClCompile Include="..\..\Source\G1213SHUO\Cubemon.cpp" />
+    <ClCompile Include="..\..\Source\G1213SHUO\CubemonHP.cpp" />
     <ClCompile Include="..\..\Source\G1213SHUO\PlayerWidget.cpp" />
     <ClCompile Include="..\..\Source\G1213SHUO\RarestCandy.cpp" />
     <ClCompile Include="..\..\Source\G1213SHUO\ResetPad.cpp" />
     <ClCompile Include="..\..\Source\G1213SHUO\UnluckyTrap.cpp" />
+    <ClInclude Include="..\..\Source\G1213SHUO\BlackHole.h" />
+    <ClInclude Include="..\..\Source\G1213SHUO\Cubemon.h" />
+    <ClInclude Include="..\..\Source\G1213SHUO\CubemonHP.h" />
     <ClInclude Include="..\..\Source\G1213SHUO\PlayerWidget.h" />
     <ClInclude Include="..\..\Source\G1213SHUO\RarestCandy.h" />
     <ClInclude Include="..\..\Source\G1213SHUO\ResetPad.h" />
